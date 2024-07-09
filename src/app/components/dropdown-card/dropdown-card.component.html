@@ -1,0 +1,24 @@
+<div class="card" style="background-color: transparent; border: none; box-shadow: none;">
+    <clr-accordion> 
+        <clr-accordion-panel [(clrAccordionPanelOpen)]="open" >
+            <clr-accordion-title>
+                <cds-icon *ngIf="icon === 'user'" role="img" shape="user" size="md" status="info" solid="true" class="icon"></cds-icon>
+                <cds-icon *ngIf="icon === 'suitcase2'" role="img" shape="suitcase2" size="md" status="info" solid="true" class="icon"></cds-icon>
+                <cds-icon *ngIf="icon === 'book'" role="img" shape="book" size="md" status="info" solid="true" class="icon"></cds-icon>
+                <cds-icon *ngIf="icon === 'certificate'" role="img" shape="certificate" size="md" status="info" solid="true" class="icon"></cds-icon>
+                <span class="header-text">{{header}}</span>
+            </clr-accordion-title>
+          <clr-accordion-content *clrIfExpanded>
+              <div>
+                    <div>
+                        <img *ngIf="img !== ''" class="picture" src={{img}}/>
+                        <p *ngIf="desc !== ''" [innerHTML]="desc" class="text"></p>
+                    </div>
+                    <div *ngIf="tree !== null">
+                        <app-workhistory-tree [workExperienceList]=tree/>
+                    </div>
+                </div>
+            </clr-accordion-content>
+        </clr-accordion-panel>
+    </clr-accordion>
+</div>

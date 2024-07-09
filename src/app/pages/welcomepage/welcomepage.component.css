@@ -1,0 +1,14 @@
+.links {
+    margin-top: 50px;
+    margin-left: -10px;
+}
+
+.btnRoute:hover {
+    outline: 2px solid;
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

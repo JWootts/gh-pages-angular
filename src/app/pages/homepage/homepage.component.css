@@ -1,0 +1,19 @@
+.center-accord {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+}
+
+.title { 
+    margin-bottom: 1.5em;
+    margin-top: 50px;
+}
+
+.resume {
+    margin-bottom: 50px;
+}
+
+.btnRoute:hover{
+    outline: 2px solid;
+}

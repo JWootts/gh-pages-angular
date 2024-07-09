@@ -35,7 +35,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss",
+              "node_modules/@cds/core/global.min.css",
+              "node_modules/@cds/core/styles/theme.dark.min.css",
+              "node_modules/@clr/ui/clr-ui.min.css"
             ],
             "scripts": []
           },
@@ -44,13 +47,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "3kb",
+                  "maximumError": "4mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "12kb",
+                  "maximumError": "20kb"
                 }
               ],
               "outputHashing": "all"
@@ -94,7 +97,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss",
+              "node_modules/@cds/core/global.min.css",
+              "node_modules/@cds/core/styles/theme.dark.min.css",
+              "node_modules/@clr/ui/clr-ui.min.css"
             ],
             "scripts": []
           }

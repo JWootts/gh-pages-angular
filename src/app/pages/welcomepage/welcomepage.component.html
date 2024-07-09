@@ -1,0 +1,13 @@
+<div>
+    <div>
+       <app-welcomecharacter/>
+       <app-welcometextfeed/>
+    </div>
+    <div class="links">
+        <ng-container *ngFor="let route of routeList">
+            <ng-container *ngIf="route.path !== 'welcome' && route.path !== '**'">
+                <a href="{{route.path}}" class="btn btn-link btnRoute">/{{returnRouteTranslated(route.path)}}</a>
+            </ng-container>
+        </ng-container>
+    </div>
+</div>

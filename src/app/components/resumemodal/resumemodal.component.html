@@ -1,0 +1,9 @@
+<clr-modal [clrModalOpen]="clrModalOpen" (clrModalOpenChange)="reset()" [clrModalSize]="'lg'">
+    <div class="modal-body">
+        <pdf-viewer [src]="pdfSrc" [render-text]="true" [original-size]="false" style="width: 100%; height: 800px;"></pdf-viewer>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-outline">Download</button>
+        <button type="button" class="btn btn-primary" (click)="clrModalOpen = false">Close</button>
+    </div>
+</clr-modal>

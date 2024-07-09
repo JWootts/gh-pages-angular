@@ -1,0 +1,21 @@
+<ul class="clr-timeline clr-timeline-vertical">
+  <ng-container *ngFor="let we of workExperienceList; index as i">
+    <li class="clr-timeline-step">
+      <div class="clr-timeline-step-header">{{we.date}}</div>
+      <clr-spinner clrMedium *ngIf="we.shape === 'spinner'"></clr-spinner>
+      <cds-icon *ngIf="we.shape === 'success-standard'" role="img" shape="success-standard"></cds-icon>
+      <div class="clr-timeline-step-body">
+        <img class="imagesrc" src={{we.img}}/>
+        <span class="clr-timeline-step-title title">{{we.pos | translate}}</span>
+        <ul>
+          <ng-container *ngFor="let desc of we.desc">
+            <li class="clr-timeline-step-description desc">{{desc | translate}}</li>
+          </ng-container>
+        </ul>
+      </div>
+    </li>
+  </ng-container>
+  <li class="clr-timeline-step">
+    <div class="clr-timeline-step-body"></div>
+  </li> 
+</ul>

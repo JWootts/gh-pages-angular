@@ -1,0 +1,29 @@
+<div class="main-container">
+  <ng-container *ngIf="!isWelcome">
+    <header class="header" style="z-index: 999;">
+        <div class="branding">
+            <a href="about" class="nav-link">
+            <cds-icon shape="user"></cds-icon>
+            <span class="title">Jordan Wootton</span>
+            </a>
+        </div>
+    </header>
+  </ng-container>
+    <div class="content-container">
+      <ng-container *ngIf="!isWelcome">
+        <clr-vertical-nav [clrVerticalNavCollapsible]="true" [(clrVerticalNavCollapsed)]="navCollapsed" style="z-index: 999;">
+          <ng-container *ngFor="let route of routeList">
+            <ng-container *ngIf="route.path !== 'welcome' && route.path !== '**'">
+              <a clrVerticalNavLink routerLink="{{route.path}}" routerLinkActive="active">
+                <cds-icon clrVerticalNavIcon shape="user"></cds-icon>
+                {{returnRouteTranslated(route.path)}}
+              </a>
+            </ng-container>
+          </ng-container>
+          </clr-vertical-nav>
+        </ng-container>
+      <div class="content-area">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+</div>

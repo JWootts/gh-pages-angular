@@ -1,0 +1,78 @@
+{
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "view.cv": "View CV",
+
+    "settings": "Settings",
+    "settings.darkmode": "Darkmode",
+    "settings.lang": "English",
+
+    "about.me.title": "ⓘ About Me.",
+    "about.me.who.am.i": "I'm Jordan Wootton. A 24 year old Software Developer from London Ontario Canada..<br><br>Hard-working college graduate in Computer Programming Analyst (4.0 GPA). Aiming to leverage academic and workplace experience (4 years) with a proven knowledge of coding a variety of different languages to successfully fill the Programmer role at your company.<br><br>Frequently praised as quality-oriented by my peers, I am reliable and determined to partner with you and your company to achieve its goals.",
+
+    "experience.title.1": "Team Leader",
+    "experience.desc.1a": "Encourage creativity and risk-taking",
+    "experience.desc.1b": "Recognized as highly-proficient.",
+    "experience.desc.1c": "Motivate team members.",
+    "experience.desc.1d": "Create an inspiring team environment with an open communication.",
+    "experience.desc.1e": "Listen to team members feedback and resolve any issues or conflicts.",
+
+    "experience.title.2": "Computer Programmer Anaylst (Co-op)",
+    "experience.desc.2a": "Local & Regional Application Development.",
+    "experience.desc.2b": "Database Development & Management (Microsoft-ACE, SQL).",
+    "experience.desc.2c": "Quality Assurance and Testing.",
+    "experience.desc.2d": "End-User Support.",
+    "experience.desc.2e": "Source Control.",
+
+    "experience.title.3": "Program Support Officer",
+    "experience.desc.3a": "Java EE Application Development; usage of Eclipse, PostgreSQL, Wildfly/JBOSS, Gitea)",
+    "experience.desc.3b": "Standardize Local App Installation and update processes through a standardized VBScript.",
+    "experience.desc.3c": "Develop class to allow for parameterized queries in VBA. (Usage in both MS-ACE/PostgreSQL).",
+    "experience.desc.3d": "Shared Drive Migration Plan / Execution.",
+    "experience.desc.3e": "Mainframe scrape efficiency of 75% savings through various techniques.",
+
+    "experience.title.4": "Monitoring/Training Officer",
+    "experience.desc.4a": "Java EE Application Development; usage of Eclipse, PostgreSQL, Wildfly/JBOSS, Gitea)",
+    "experience.desc.4b": "On-board various students and staff into programming practices.",
+    "experience.desc.4c": "Assist with selection/hiring process for technical staff.",
+    "experience.desc.4d": "Generate technical quality based reports of regional work.",
+
+    "education.title.1": "Ontario Secondary School Diploma",
+    "education.desc.1a": "Introduction to Object Oriented Programming - Java Swing",
+    "education.desc.1b": "Introduction to Programming Basics - Turing",
+
+    "education.title.2": "Computer Programmer Anaylst (CPA2) Advanced Diploma",
+    "education.desc.2a": "Managing Software Design Projects (SCRUM Methodology).",
+    "education.desc.2b": "Component Based Programming With .NET / C# Advanced Topics.",
+    "education.desc.2c": "Software Design Patterns I/II (Gang of Four).",
+    "education.desc.2d": "Object Oriented Programming & Algorithms.",
+    "education.desc.2e": "Rational Databases & SQL (Oracle, MySQL, MongoDB, PostgreSQL, MSAccess).",
+    "education.desc.2f": "Secure Computing.",
+    "education.desc.2g": "JavaScript (Vanilla, React, Vue).",
+    "education.desc.2h": "C/C++.",
+
+    "certifications.title.1": "Comprehensive Angular 12 Programming",
+    "certifications.desc.1a": "Web Age Solutions",
+
+    "certifications.title.2": "Cybersecurity Certificate",
+    "certifications.desc.2a": "Google",
+
+    "projects.title": "Projects.",
+    "projects.desc": "Description",
+    "projects.pull.select.title": "Clone",
+    "projects.pull.select.p1.title": "Disclaimer",
+    "projects.pull.select.p1.select": "Select",
+    "projects.pull.select.p1.copy.clipboard": "Copied to clipboard.",
+
+    "contact.card.title": "Email",
+    "contact.card.name": "Name",
+    "contact.card.email": "Email",
+    "contact.card.msg": "Message",
+    "contact.card.send": "Send Email",
+
+    "footer.text":"Made with ❤️ in Canada.",
+
+    "disclaimer.text": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. <br><br> THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+
+}
