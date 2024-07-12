@@ -70,6 +70,5 @@ export const service_id: string = '';
 export const template_id: string = '';
 
 // -- Project Service lookup (per github user specified) with auth token
-export const github_api_key: string = '';
 export const github_repos_url: string = 'https://api.github.com/users/JWootts/repos';
 
