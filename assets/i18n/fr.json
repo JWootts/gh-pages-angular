@@ -1,6 +1,77 @@
 {
-    "home": "Accueil",
-    "experience": "Expérience",
+    "about": "À propos",
     "projects": "Projets",
-    "contact": "Contact"
+    "contact": "Contact",
+    "view.cv": "Voir CV",
+
+    "settings": "Paramètres",
+    "settings.darkmode": "Mode sombre",
+    "settings.lang": "Français canadien",
+
+    "about.me.title": "ⓘ À propos de moi.",
+    "about.me.who.am.i": "Je suis Jordan Wootton. Un développeur logiciel de 24 ans de London, Ontario, Canada..<br><br>Diplômé assidu en programmation informatique (moyenne de 4.0). Je vise à tirer parti de mon expérience académique et professionnelle (4 ans) avec une connaissance avérée de la programmation dans diverses langues pour réussir dans le rôle de programmeur au sein de votre entreprise.<br><br>Souvent loué pour ma qualité par mes pairs, je suis fiable et déterminé à collaborer avec vous et votre entreprise pour atteindre ses objectifs.",
+
+    "experience.title.1": "Chef d'équipe",
+    "experience.desc.1a": "Encourager la créativité et la prise de risques",
+    "experience.desc.1b": "Reconnu comme très compétent.",
+    "experience.desc.1c": "Motiver les membres de l'équipe.",
+    "experience.desc.1d": "Créer un environnement d'équipe inspirant avec une communication ouverte.",
+    "experience.desc.1e": "Écouter les retours des membres de l'équipe et résoudre tout problème ou conflit.",
+
+    "experience.title.2": "Analyste-programmeur informatique (stage)",
+    "experience.desc.2a": "Développement d'applications locales et régionales.",
+    "experience.desc.2b": "Développement et gestion de bases de données (Microsoft-ACE, SQL).",
+    "experience.desc.2c": "Assurance qualité et tests.",
+    "experience.desc.2d": "Support aux utilisateurs finaux.",
+    "experience.desc.2e": "Contrôle de version.",
+
+    "experience.title.3": "Agent de soutien aux programmes",
+    "experience.desc.3a": "Développement d'applications Java EE; utilisation d'Eclipse, PostgreSQL, Wildfly/JBOSS, Gitea)",
+    "experience.desc.3b": "Standardisation des processus d'installation et de mise à jour des applications locales via un script VB standardisé.",
+    "experience.desc.3c": "Développement de classes pour permettre des requêtes paramétrées en VBA. (Utilisation dans MS-ACE/PostgreSQL).",
+    "experience.desc.3d": "Planification et exécution de la migration de disques partagés.",
+    "experience.desc.3e": "Efficacité de grattage de mainframe de 75 % grâce à diverses techniques.",
+
+    "experience.title.4": "Agent de surveillance/formation",
+    "experience.desc.4a": "Développement d'applications Java EE; utilisation d'Eclipse, PostgreSQL, Wildfly/JBOSS, Gitea)",
+    "experience.desc.4b": "Intégrer divers étudiants et membres du personnel aux pratiques de programmation.",
+    "experience.desc.4c": "Aider au processus de sélection/embauche du personnel technique.",
+    "experience.desc.4d": "Générer des rapports de qualité technique sur le travail régional.",
+
+    "education.title.1": "Diplôme d'études secondaires de l'Ontario",
+    "education.desc.1a": "Introduction à la programmation orientée objet - Java Swing",
+    "education.desc.1b": "Introduction aux bases de la programmation - Turing",
+
+    "education.title.2": "Diplôme avancé d'analyste-programmeur (CPA2)",
+    "education.desc.2a": "Gestion de projets de conception logicielle (méthodologie SCRUM).",
+    "education.desc.2b": "Programmation basée sur les composants avec .NET / C# (sujets avancés).",
+    "education.desc.2c": "Design Patterns I/II (Gang of Four).",
+    "education.desc.2d": "Programmation orientée objet et algorithmes.",
+    "education.desc.2e": "Bases de données relationnelles et SQL (Oracle, MySQL, MongoDB, PostgreSQL, MSAccess).",
+    "education.desc.2f": "Informatique sécurisée.",
+    "education.desc.2g": "JavaScript (Vanilla, React, Vue).",
+    "education.desc.2h": "C/C++.",
+
+    "certifications.title.1": "Programmation Angular 12 complète",
+    "certifications.desc.1a": "Web Age Solutions",
+
+    "certifications.title.2": "Certificat en cybersécurité",
+    "certifications.desc.2a": "Google",
+
+    "projects.title": "Projets.",
+    "projects.desc": "Description",
+    "projects.pull.select.title": "Cloner",
+    "projects.pull.select.p1.title": "Avertissement",
+    "projects.pull.select.p1.select": "Sélectionner",
+    "projects.pull.select.p1.copy.clipboard": "Copié dans le presse-papiers.",
+
+    "contact.card.title": "Courriel",
+    "contact.card.name": "Nom",
+    "contact.card.email": "Courriel",
+    "contact.card.msg": "Message",
+    "contact.card.send": "Envoyer le courriel",
+
+    "footer.text":"Fait avec ❤️ au Canada.",
+
+    "disclaimer.text": "La permission est accordée, sans frais, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le \"Logiciel\"), de traiter le Logiciel sans restriction, y compris sans limitation les droits d'utiliser, copier, modifier, fusionner, publier, distribuer, sous-licencier et/ou vendre des copies du Logiciel, et de permettre aux personnes à qui le Logiciel est fourni de le faire, sous réserve des conditions suivantes : L'avis de droit d'auteur ci-dessus et cet avis de permission doivent être inclus dans toutes les copies ou portions substantielles du Logiciel. <br><br> LE LOGICIEL EST FOURNI \"TEL QUEL\", SANS GARANTIE D'AUCUNE SORTE, EXPRESSE OU IMPLICITE, Y COMPRIS MAIS SANS S'Y LIMITER AUX GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION À UN USAGE PARTICULIER ET DE NON-VIOLATION. EN AUCUN CAS, LES AUTEURS OU TITULAIRES DES DROITS D'AUTEUR NE SERONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D'UN CONTRAT, D'UN DÉLIT OU AUTREMENT, DÉCOULANT DE, HORS OU EN RELATION AVEC LE LOGICIEL OU L'UTILISATION OU AUTRES MANIPULATIONS DANS LE LOGICIEL."
 }
