@@ -4,7 +4,7 @@ export const workexperience: any = [
     {   
         date: 'Jun 2022 - Jan 2023', pos: 'experience.title.4', 
         desc: ['experience.desc.4a', 'experience.desc.4b', 'experience.desc.4c', 'experience.desc.4d'], 
-        shape: "success-standard", img: "../../assets/images/cra-logo.png" 
+        shape: "success-standard", img: "assets/images/cra-logo.png" 
     },
     {   
         date: 'Dec 2021 - Jun 2022', pos: 'experience.title.3', 
@@ -19,7 +19,7 @@ export const workexperience: any = [
     {   
         date: 'Mar 2016 - Dec 2019', pos: 'experience.title.1', 
         desc: ['experience.desc.1a', 'experience.desc.1b', 'experience.desc.1c', 'experience.desc.1d', 'experience.desc.1e'], 
-        shape: "success-standard", img: "../../assets/images/cineplex-logo.png" 
+        shape: "success-standard", img: "assets/images/cineplex-logo.png" 
     },
 ];
 
@@ -27,12 +27,12 @@ export const eduDetials: any = [
     {   
         date: 'Sep 2018 - Apr 2022', pos: 'education.title.2', 
         desc: ['education.desc.2a', 'education.desc.2b', 'education.desc.2c', 'education.desc.2d', 'education.desc.2e', 'education.desc.2f', 'education.desc.2g'], 
-        shape: "success-standard", img: "../../assets/images/Fanshawe-logo.png" 
+        shape: "success-standard", img: "assets/images/Fanshawe-logo.png" 
     },
     {   
         date: 'Sep 2014 - Jun 2028', pos: 'education.title.1', 
         desc: ['education.desc.1a', 'education.desc.1b'], 
-        shape: "success-standard", img: "../../assets/images/ucc-logo.png" 
+        shape: "success-standard", img: "assets/images/ucc-logo.png" 
     }
 ];
 
@@ -40,26 +40,26 @@ export const certDetails: any = [
     {   
         date: 'TBD', pos: 'certifications.title.2', 
         desc: ['certifications.desc.2a'], 
-        shape: "spinner", img: "../../assets/images/google-logo.png" 
+        shape: "spinner", img: "assets/images/google-logo.png" 
     },
     {   
         date: 'Jan 2023', pos: 'certifications.title.1', 
         desc: ['certifications.desc.1a'], 
-        shape: "success-standard", img: "../../assets/images/web_age_solutions_logo.jpg" 
+        shape: "success-standard", img: "assets/images/web_age_solutions_logo.jpg" 
     }
 ];
 
 export const aboutme: any = [
-    { header: 'Who am I?', desc: 'about.me.who.am.i', img: "../../assets/images/logo.png", icon: "user" },
+    { header: 'Who am I?', desc: 'about.me.who.am.i', img: "assets/images/logo.png", icon: "user" },
     { header: 'Work experience', desc: '', tree: workexperience, icon: "suitcase2" },
     { header: 'Education background', tree: eduDetials, icon: "book" },
     { header: 'Certifications', desc: '', tree: certDetails, icon: "certificate" }
 ];
 
 export const contactmedetails: ContactDetails[] = [
-    { link: 'https://www.linkedin.com/in/jordanwootton/', img: '../../assets/images/icons/linkedin.png', label_tag: '/jordanwootton' },
-    { link: 'https://github.com/JWootts', img: '../../assets/images/icons/github.png', label_tag: '/jwootts' },
-    { link: 'mailto:contact@jordanwootton.ca', img: '../../assets/images/icons/email.png', label_tag: '/contact' },
+    { link: 'https://www.linkedin.com/in/jordanwootton/', img: 'assets/images/icons/linkedin.png', label_tag: '/jordanwootton' },
+    { link: 'https://github.com/JWootts', img: 'assets/images/icons/github.png', label_tag: '/jwootts' },
+    { link: 'mailto:contact@jordanwootton.ca', img: 'assets/images/icons/email.png', label_tag: '/contact' },
 ];
 
 // ---------- UPDATE BELOW (CUSTOM FIELDS) ---------------------
