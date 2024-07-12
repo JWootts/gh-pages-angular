@@ -1,7 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
-import { github_api_key, github_repos_url } from '../../../assets/data/data'
+import { github_repos_url } from '../../../assets/data/data'
+import { github_api_key } from '../../../environments/environment.development';
 
 @Injectable({
   providedIn: 'root'

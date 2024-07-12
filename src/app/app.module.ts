@@ -31,6 +31,8 @@ import { NgxParticlesModule } from "@tsparticles/angular";
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { ResumemodalComponent } from './components/resumemodal/resumemodal.component';
 
+import { environment } from '../environments/environment.development';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -75,5 +77,8 @@ import { ResumemodalComponent } from './components/resumemodal/resumemodal.compo
 export class AppModule { }
 
 export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
-  return new TranslateHttpLoader(http);
+  if (environment.production)
+    return new TranslateHttpLoader(http, '/gh-pages-angular/assets/i18n/' );
+  else
+    return new TranslateHttpLoader(http);
 }

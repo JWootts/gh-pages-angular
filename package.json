@@ -1,10 +1,11 @@
 {
   "name": "website-personal",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "deploy": "ng deploy --repo=https://github.com/jwootts/gh-pages-angular.git --name=\"jwootts\"",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

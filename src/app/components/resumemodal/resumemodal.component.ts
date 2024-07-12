@@ -7,7 +7,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 })
 export class ResumemodalComponent {
 
-  pdfSrc = "../../assets/pdf/resume.pdf";
+  pdfSrc = "assets/pdf/resume.pdf";
 
   @Input()  clrModalOpen: boolean = false;
   @Output() clrModalOpenChange = new EventEmitter();
