@@ -1,0 +1,15 @@
+<clr-modal [clrModalOpen] = "opened" (clrModalOpenChange) = "close()" >
+  <h3 class="modal-title">{{'settings' | translate}}</h3>
+  <div class="modal-body center-div">
+    <clr-toggle-container>
+      <clr-toggle-wrapper>
+        <input [(ngModel)]='darkmodeSetting' type="checkbox" clrToggle (change)="enableDarkmode($event)"/>
+        <label>{{'settings.darkmode' | translate}}</label>
+      </clr-toggle-wrapper>
+      <clr-toggle-wrapper>
+        <input type="checkbox" clrToggle value="frenchMode" />
+        <label>{{'settings.lang' | translate}}</label>
+      </clr-toggle-wrapper>
+    </clr-toggle-container>
+  </div>
+</clr-modal>

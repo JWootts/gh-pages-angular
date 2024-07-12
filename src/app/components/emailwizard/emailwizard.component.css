@@ -1,0 +1,12 @@
+
+div.email-input {
+    display:grid;
+    grid-template-columns: max-content max-content;
+    grid-gap:5px;
+}
+div.email-input span       { text-align:right; }
+div.email-input span:after { content: ":"; }
+
+.email-card {
+    min-width: 300px;
+}

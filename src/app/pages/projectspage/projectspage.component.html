@@ -1,0 +1,23 @@
+<div class="center-accord">
+    <h1 class="title">
+        <cds-icon shape="folder" size="lg" direction="up" solid="true" ></cds-icon>
+        {{'projects.title' | translate}}
+    </h1>
+</div>  
+<div class="main">
+    <div style="width: 55%;">
+        <div class="clr-row">
+            <ng-container *ngFor="let repo of githubList; index as i" class="main">
+                <div class="clr-col">
+                <app-projectcard (onClone)="loadClone($event[0])" [header]=repo.name [desc]=repo.description 
+                                [createdDate]=repo.created_at [lang]=repo.language [link]=repo.svn_url 
+                                [cloneInfo]="{https_url: repo.clone_url, ssh_url: repo.ssh_url, github_cli_url: 'gh repo clone ' + repo.full_name}"/>    
+                </div>
+            </ng-container>
+        </div>
+    </div>
+</div>
+<app-clonewizard [(cloneWizardOpen)]=isCloneWizardOpen [githubClone]="cloneProps"/>
+
+        
+     

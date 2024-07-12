@@ -1,0 +1,18 @@
+.center-div {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+}
+.clr-footer {
+    margin-top:auto; 
+    width: 100%;
+    background-color: rgb(13, 35, 58);
+}
+
+.center-text {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100%;   
+    padding: 1%;
+}
